@@ -33,10 +33,8 @@ Nota: Puedes asumir que el datawarehouse donde esta alojado el modelo de BI, es 
 
 Formato de entrega:
 
-Por favor crea una rama nueva con el siguiente formato interview/<your last name>, ejemplo: interview/vega y comunicate con el recluter o la persona que envió la prueba
+Por favor hazle un fork al proyecto, cuando termines manda un PR con el siguiente formato interview/<your last name>, ejemplo: interview/vega y comunicate con el recluter o la persona que envió la prueba
 
-**NO CREES UN PULL REQUEST**
-
-tienes una semana a partir de recibido este correo, muchos exitos.
+Tienes una semana a partir de recibido este correo, muchos exitos.
 
 Si tienes cualquier duda al respecto no dudes en escribirme.
