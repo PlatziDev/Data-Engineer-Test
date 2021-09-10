@@ -12,4 +12,4 @@ luego creas BD con nombre modelo_bi
 despues deser creada  ya se puede hacer el ETL
 con nombre platzi.py
 
-#version de python utilizada 3.7 para la creacion del ETL
+
