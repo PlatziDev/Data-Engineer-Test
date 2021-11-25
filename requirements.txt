@@ -1,0 +1,10 @@
+python-dotenv
+pypandoc==1.5
+pyspark-stubs==2.3.0
+py4j==0.10.6
+pyspark==2.3.0
+
+pytest==6.1.2
+
+wheel==0.36.2
+setuptools==54.2.0

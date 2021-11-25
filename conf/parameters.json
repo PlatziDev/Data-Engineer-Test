@@ -1,0 +1,40 @@
+{
+  "environment": "develop",
+  "connection_type": "jdbc",
+  "connection_protocol": "postgresql",
+  "write_mode": "append",
+  "external_dependencies": [
+    "postgresql-42.3.1.jar"
+  ],
+  "relational_model": {
+    "database": "platzi_de",
+    "subscription_event": "t_subscription_event",
+    "payment_detail": "t_payment_detail",
+    "currency": "t_currency",
+    "payment_method": "t_payment_method",
+    "payment_classification": "t_payment_classification",
+    "subscription": "t_subscription",
+    "subscription_type": "t_subscription_type",
+    "event_type": "t_event_type",
+    "school_course": "t_school_course",
+    "enrollment_school": "t_enrollment_school",
+    "school": "t_school",
+    "enrollment_course": "t_enrollment_course",
+    "enrollment_class": "t_enrollment_class",
+    "class": "t_class",
+    "course": "t_course",
+    "course_type": "t_course_type",
+    "site_content_access_history": "t_site_content_access_history",
+    "user": "t_user",
+    "site_content": "t_site_content",
+    "site_content_type": "t_site_content_type"
+  },
+  "bi_model": {
+    "database": "platzi_redshift_model",
+    "event": "fac_event",
+    "event_type": "dim_event_type",
+    "subscription_type": "dim_subscription_type",
+    "user_subscription": "dim_user_subscription",
+    "payment": "dim_payment"
+  }
+}
