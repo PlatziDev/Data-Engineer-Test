@@ -159,10 +159,10 @@ class PlatziTransformation(TransformationGeneric):
         """
            Execute all of transformations o processes
         """
-        # self.__generate_dim_event_type()
-        # self.__generate_dim_subscription_type()
-        # self.__generate_dim_user_subscription()
-        # self.__generate_dim_payment()
+        self.__generate_dim_event_type()
+        self.__generate_dim_subscription_type()
+        self.__generate_dim_user_subscription()
+        self.__generate_dim_payment()
         self.__generate_fac_event()
 
     def execute(self):
