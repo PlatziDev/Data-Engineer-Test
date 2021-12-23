@@ -2,10 +2,10 @@
 ***Platzi- Take home exercise description [[Source](https://github.com/PlatziDev/Data-Engineer-Test/blob/master/README.md)]***
 ### Relational Model
 
-![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/diagram-relational_model.png?raw=true)
+![image info](project/doc/diagram-relational_model.png?raw=true)
 
 ### Star Model to analyze Platzi's payments and money
-![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/diagram-star_model.png?raw=true)
+![image info](project/doc/diagram-star_model.png?raw=true)
 
 ### ETL process
 #### Requirements
@@ -15,7 +15,7 @@
   * ETL process was developed using Spark and this was developed in Scala that runs on JVM machine
   * It is needed the JAVA_HOME var set
 #### Architecture
-![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/diagram-architecture.png?raw=true)
+![image info](project/doc/diagram-architecture.png)
 #### Instructions
 I used fake data from [[mockaroo](https://www.mockaroo.com/)] to generate csv input files. ***It could have been used sql insert statements to generate fake data, but I prefer to use a spark job just for the sake of having a better programming structure of the project, or how I imagined it could be in terms of coding***
 
@@ -37,7 +37,7 @@ Database: platzi
 </pre>
 Once you went to http://localhost:8080, create the input tables using the script **sql/creation_table_ddl.sql**, you should see something like:
 
-![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/db_general_view.png?raw=true)
+![image info](project/doc/db_general_view.png?raw=true)
 
 3. Install the project into a python virtual environment
 <pre>
