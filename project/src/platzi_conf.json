@@ -1,0 +1,24 @@
+{
+  "ingestion": {
+   "subscriptions": { "path" :  "input_files/subscriptions.csv", "table_name":  "subscriptions"},
+   "subscription_states": { "path" :  "input_files/subscription_states.csv", "table_name":  "subscription_states"},
+   "payment_methods": { "path" :  "input_files/payment_methods.csv", "table_name":  "payment_methods"},
+   "students": { "path" :  "input_files/students.csv", "table_name":  "students"},
+   "students_classes": { "path" :  "input_files/students_classes.csv", "table_name":  "students_classes"},
+   "students_courses": { "path" :  "input_files/students_courses.csv", "table_name":  "students_courses"},
+   "students_schools": { "path" :  "input_files/students_schools.csv", "table_name":  "students_schools"},
+   "students_extra_events": { "path" :  "input_files/students_extra_events.csv", "table_name":  "students_extra_events"},
+   "extra_events": { "path" :  "input_files/extra_events.csv", "table_name":  "extra_events"},
+   "schools": { "path" :  "input_files/schools.csv", "table_name":  "schools"},
+   "courses": { "path" :  "input_files/courses.csv", "table_name":  "courses"},
+   "classes": { "path" :  "input_files/classes.csv", "table_name":  "classes"}
+  },
+  "processing": {
+   "subscriptions_output_path":  "output_files/subscriptions/",
+   "payment_methods_output_path": "output_files/payment_methods/",
+   "students_output_path": "output_files/students/",
+   "extra_events_output_path": "output_files/extra_events/",
+   "time_info_output_path":  "output_files/time_info/",
+   "payment_events_output_path": "output_files/payment_events/"
+  }
+}

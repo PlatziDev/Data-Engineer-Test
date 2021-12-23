@@ -1,0 +1,20 @@
+version: '3.1'
+services:
+    db:
+        image: postgres:11
+        restart: always
+        volumes:
+            - db-data:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        environment:
+            - POSTGRES_USER=platzi
+            - POSTGRES_PASSWORD=platzi
+            - POSTGRES_DB=platzi
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - "8080:8080"
+volumes:
+    db-data:
