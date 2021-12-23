@@ -1,40 +1,59 @@
-# Descripcion de la prueba
 
-En el equipo de platzi queremos evaluar tus capacidades en modelamiento de datos y manejo de ingeniería de datos y ETL con algún lenguaje en específico.
+***Platzi- Take home exercise description [[Source](https://github.com/PlatziDev/Data-Engineer-Test/blob/master/README.md)]***
+### Relational Model
 
-Para esto decidimos crear la siguiente prueba en la cual se evaluará tu lógica de abstracción del negocio a los datos y la creación de scripts para ETL.
+![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/diagram-relational_model.png?raw=true)
 
-## **Platzi**
+### Star Model to analyze Platzi's payments and money
+![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/diagram-star_model.png?raw=true)
 
-En platzi, ofrecemos educación online efectiva a estudiantes de todo el mundo, el modelo de negocio funciona de la siguiente manera
+### ETL process
+#### Requirements
+- Docker [[install-guide](https://docs.docker.com/engine/install/)]
+- Docker-compose [[install-guide](https://docs.docker.com/compose/install/)]
+- JVM [[install-guide](https://sdkman.io/install)]
+  * ETL process was developed using Spark and this was developed in Scala that runs on JVM machine
+  * It is needed the JAVA_HOME var set
+#### Architecture
+![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/diagram-architecture.png?raw=true)
+#### Instructions
+I used fake data from [[mockaroo](https://www.mockaroo.com/)] to generate csv input files. ***It could have been used sql insert statements to generate fake data, but I prefer to use a spark job just for the sake of having a better programming structure of the project, or how I imagined it could be in terms of coding***
 
-- Un estudiante puede adquirir 3 tipos de suscripciones pagas
-- Existen distintos métodos de pago que se clasifican en recurrente y no recurrente
-- Un estudiante puede pagar su suscripción con mas de un método de pago, es importante saber cuánto se pago, en que currency y en que fecha
-- Es importante saber cuando un estudiante inicia y termina su suscripción
-- Un estudiante puede pausar su suscripción o se le pueden dar meses de cortesía, y es necesario saber cuándo ocurre cada evento de pausa o cortesía
-- Un estudiante puede tomar cursos, escuelas y clases
-- Una escuela está conformada por cursos, y un curso está conformado por clases
-- Además un estudiante puede ingresar a sesiones en vivo o blogs de la plataforma
+1. Spin up the containers where the docker-compose file is allocated
+<pre>
+$ sudo docker-compose up -d
+</pre>
 
-1. Crear un modelo relacional que pueda soportar la lógica de negocio anterior
-2. Crear un modelo BI en estrella o snowflafe para analitica de datos, para analizar los pagos en platzi y el dinero que se obtiene.
-3. Consultas sql:
+Now, you should see two docker images: **adminer** and **postgres**, ports **8080** and the classic **5432** 
 
-En tu modelo de datos:
+2. Open a browser and go to http://localhost:8080
 
-- cómo podemos saber cuántos estudiantes nuevos tenemos por suscripción semana a semana y mes por mes
-- ¿Cuántos cursos ha tomado el estudiante con más del 80% de las clases vistas?
-- ¿El estudiante ha tenido pausas o cortesías en su suscripción?
+Login:
+<pre>
+Server: db
+Username: platzi   
+Password: platzi
+Database: platzi
+</pre>
+Once you went to http://localhost:8080, create the input tables using the script **sql/creation_table_ddl.sql**, you should see something like:
 
-1. Crea un proceso de ETL en python/spark/sql o el lenguaje que creas conveniente con el objetivo de migrar los datos del modelo relacional que creaste anteriormente hasta el modelo estrella o snowflake que también creaste previamente.
+![image info](https://github.com/jeff1191/Data-Engineer-Test/tree/master/project/doc/db_general_view.png?raw=true)
 
-Nota: Puedes asumir que el datawarehouse donde esta alojado el modelo de BI, es redshift, snowflake, hbase o cualquier base de datos columnar que manejes.
+3. Install the project into a python virtual environment
+<pre>
+$ python3 -m venv /path/to/new/virtual/environment
+$ pip3 install -r requirements.txt 
+</pre>
 
-Formato de entrega:
+4. Execute the spark jobs taking into account that the working directory is **project/src** 
 
-Por favor hazle un fork al proyecto, cuando termines manda un PR con el siguiente formato interview/<your last name>, ejemplo: interview/vega y comunicate con el recluter o la persona que envió la prueba
+Entry point of the program is the driver allocated in **project/src/platzi_driver.py**, it receives the following params for ingestion and processing job:
 
-Tienes una semana a partir de recibido este correo, muchos exitos.
-
-Si tienes cualquier duda al respecto no dudes en escribirme.
+Ingestion:
+<pre>
+ --config-file platzi_conf.json --job-type ingestion_job --app-name app_ingestion
+</pre>
+Processing:
+<pre>
+$ --config-file platzi_conf.json --job-type processing_job --app-name app_processing
+</pre>
