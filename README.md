@@ -35,7 +35,7 @@ Username: platzi
 Password: platzi
 Database: platzi
 </pre>
-Once you went to http://localhost:8080, create the input tables using the script **sql/creation_table_ddl.sql**, you should see something like:
+Once you are logged in, go to http://localhost:8080, click on SQL command and create the input tables using the script **sql/creation_table_ddl.sql**, you should see something like:
 
 ![image info](project/doc/db_general_view.png?raw=true)
 
@@ -51,7 +51,7 @@ Entry point of the program is the driver allocated in **project/src/platzi_drive
 
 Ingestion:
 <pre>
- --config-file platzi_conf.json --job-type ingestion_job --app-name app_ingestion
+$ --config-file platzi_conf.json --job-type ingestion_job --app-name app_ingestion
 </pre>
 Processing:
 <pre>
