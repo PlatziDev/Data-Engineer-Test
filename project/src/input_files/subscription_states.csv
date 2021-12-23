@@ -1,4 +1,4 @@
-subscription_id,student_id,subscription_type,subscription_state_value,start_date,end_date,payment_date
+subscription_id,student_id,subscription_type,subscription_state_value,start_date,end_date,created_at
 1,1,GIFT,86,2021-09-15,2020-08-04,2021-06-07
 2,2,ACTIVE,98,2020-08-17,2020-07-21,2020-11-07
 3,3,ACTIVE,72,2020-07-12,2020-08-21,2021-04-09

@@ -6,6 +6,8 @@
 
 ### Star Model to analyze Platzi's payments and money
 ![image info](project/doc/diagram-star_model.png?raw=true)
+### Questions
+They are answered in **sql/questions.sql**
 
 ### ETL process
 #### Requirements

@@ -1,5 +1,5 @@
 from pyspark.sql.functions import col
-from pyspark.sql.types import DateType
+from pyspark.sql.types import DateType, IntegerType
 from job.spark_job_base import SparkBaseJob
 
 
@@ -47,8 +47,9 @@ class IngestionJob(SparkBaseJob):
 
         df_subscription_states = df_subscription_states.withColumn("start_date", col("start_date").cast(DateType()))
         df_subscription_states = df_subscription_states.withColumn("end_date", col("end_date").cast(DateType()))
-        df_subscription_states = df_subscription_states.withColumn("payment_date", col("payment_date").cast(DateType()))
+        df_subscription_states = df_subscription_states.withColumn("created_at", col("created_at").cast(DateType()))
         df_payment_methods = df_payment_methods.withColumn("payment_date", col("payment_date").cast(DateType()))
+        df_students_classes = df_students_classes.withColumn("percentage_completed", col("percentage_completed").cast(IntegerType()))
 
         self.write_df_into_postgre(df=df_students,
                                    db_table=self.json_conf["ingestion"]["students"]["table_name"])

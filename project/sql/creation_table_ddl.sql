@@ -48,7 +48,8 @@ CREATE TABLE platzi.classes(
 
 CREATE TABLE platzi.students_classes(
    student_id VARCHAR(255)  NOT NULL
-  ,class_id   VARCHAR(255)  NOT NULL,
+  ,class_id   VARCHAR(255)  NOT NULL
+  ,percentage_completed   NUMERIC  NOT NULL,
      CONSTRAINT fk_student
    FOREIGN KEY(student_id)
    REFERENCES students(student_id),
@@ -97,7 +98,7 @@ CREATE TABLE platzi.subscription_states(
   ,subscription_state_value VARCHAR(255)  NOT NULL
   ,start_date               DATE  NOT NULL
   ,end_date                 DATE  NOT NULL
-  ,payment_date             DATE  NOT NULL,
+  ,created_at             DATE  NOT NULL,
      CONSTRAINT fk_student
    FOREIGN KEY(student_id)
    REFERENCES students(student_id),
