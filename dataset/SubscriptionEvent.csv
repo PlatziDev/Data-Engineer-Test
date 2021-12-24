@@ -1,0 +1,3 @@
+id,subscription_id,subscription_event_type_id,description,duration,event_timestamp,created_at,updated_at
+1,1,1,Paused by the User 15 days,15,2021-02-01 19:00:00,2021-02-01 19:00:00,2021-02-01 19:00:00
+2,3,2,Courtesy 90 days,90,2021-02-01 19:00:00,2021-02-01 19:00:00,2021-02-01 19:00:00

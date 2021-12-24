@@ -1,0 +1,4 @@
+id,name,description,start_date,created_at,updated_at,status
+1,Essential,Basic subscription,2021-01-01 18:00:00,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+2,Startup,Intermediate subscription,2021-01-01 18:00:00,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+3,Business,Advanced subscription,2021-01-01 18:00:00,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled

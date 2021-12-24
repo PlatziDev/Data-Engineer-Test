@@ -1,0 +1,12 @@
+id,name,description,url,type,created_at,updated_at,status
+1,live streeming, Live Streeming n°1, http://platzi/live/001, streeming,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+2,live streeming, Live Streeming n°2, http://platzi/live/002, streeming,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+3,live streeming, Live Streeming n°3, http://platzi/live/003, streeming,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+4,live streeming, Live Streeming n°4, http://platzi/live/004, streeming,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+5,live streeming, Live Streeming n°5, http://platzi/live/005, streeming,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+6,live streeming, Live Streeming n°6, http://platzi/live/006, streeming,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+7,Blog,Blog N° 18, http://platzi/blog/018, blog,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+8,Blog,Blog N° 19, http://platzi/blog/019, blog,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+9,Blog,Blog N° 210, http://platzi/blog/210, blog,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+10,Blog,Blog N° 211, http://platzi/blog/211, blog,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+11,Blog,Blog N° 1212, http://platzi/blog/1212, blog,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled

@@ -1,0 +1,5 @@
+id,name,description,territory,fractional_unit,iso_code,created_at,updated_at,status
+1,Albanian lek,Albanian lek,Albania,Qindarkë,ALL,2021-01-01 15:00:00,2021-01-01 15:00:00,enabled
+2,Argentine peso,Argentine peso,Argentina,Centavo,ARS,2021-01-01 15:00:00,2021-01-01 15:00:00,enabled
+3,Colombian peso,Colombian peso,Colombia,Centavo,COP,2021-01-01 15:00:00,2021-01-01 15:00:00,enabled
+4,Norwegian krone,Norwegian krone,Norway,Øre,NOK,2021-01-01 15:00:00,2021-01-01 15:00:00,enabled

@@ -1,0 +1,5 @@
+id,name,description,created_at,updated_at
+1,Paused,Paused subscription event description,2021-01-01 18:00:00,2021-01-01 18:00:00
+2,Courtesy,Courtesy subscription event description,2021-01-01 18:00:00,2021-01-01 18:00:00
+3,Cancel,Cancel subscription event description,2021-01-01 18:00:00,2021-01-01 18:00:00
+4,Activate,Activate subscription event description,2021-01-01 18:00:00,2021-01-01 18:00:00

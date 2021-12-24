@@ -1,0 +1,13 @@
+id,school_id,name,description,created_at,updated_at,status
+1,1,Business Course 1,Business Course 1 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+2,1,Business Course 2,Business Course 2 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+3,1,Business Course 3,Business Course 3 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+4,2,English Course 1,English Course 1 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+5,2,English Course 2,English Course 2 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+6,2,English Course 3,English Course 3 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+7,3,Web Development Course 1,Web Development Course 1 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+8,3,Web Development Course 2,Web Development Course 2 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled 
+9,3,Web Development Course 3,Web Development Course 3 description,2021-01-01 19:00:00,2021-01-01 19:00:00,enabled
+10,4,Art Course 1,Art Course 1 description,2021-01-01 19:00:00,2021-01-01 19:00:00,disabled 
+11,4,Art Course 2,Art Course 2 description,2021-01-01 19:00:00,2021-01-01 19:00:00,disabled 
+12,4,Art Course 3,Art Course 3 description,2021-01-01 19:00:00,2021-01-01 19:00:00,disabled

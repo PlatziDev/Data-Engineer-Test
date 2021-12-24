@@ -1,0 +1,11 @@
+id,first_name,last_name,nickname,email,birthday,created_at,updated_at,status
+1,Bruno,Agresta,brunoagresta,bruno@gmail.com,1999-03-06,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+2,Juan,Gomez,juan12,juan@gmail.com,1989-01-01,2021-02-01 18:00:00,2021-01-01 12:40:00,enabled
+3,Pedro,Ramirez,pedroelmas,pedro@gmail.com,1988-01-03,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+4,Jorge,Alladio,jorgecuadrado,jor@gmail.com,1990-07-15,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+5,Miriam,Lopp,miriam44,miri@gmail.com,1992-09-20,2021-01-01 18:00:00,2021-01-01 18:08:00,enabled
+6,Roberto,Agresta,robertt,roberto@gmail.com,1999-03-06,2021-01-01 18:00:00,2021-01-01 18:00:00,enabled
+7,Jhon,Zhao,marigo,Jhon@gmail.com,1989-01-01,2021-02-01 18:00:00,2021-01-01 18:00:00,enabled
+8,Guillermo,Gutt,guille,guillermo@gmail.com,1988-01-03,2021-01-01 18:00:00,2021-02-01 18:00:00,enabled
+9,Rodolfo,Fepp,rudolf,rudolf@gmail.com,1990-07-15,2021-01-01 18:00:00,2021-01-01 14:50:00,enabled
+10,Hector,Cally,miriam44,miri@gmail.com,1992-09-20,2021-01-01 18:00:00,2021-01-01 15:00:00,enabled

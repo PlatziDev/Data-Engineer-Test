@@ -1,0 +1,5 @@
+id,name,description,created_at,updated_at,status
+1,Business,Business School, 2021-01-01 19:00:00, 2021-01-01 19:00:00,enabled
+2,English,English School, 2021-01-01 19:00:00, 2021-01-01 19:00:00,enabled
+3,Web Development,Web Development School, 2021-01-01 19:00:00, 2021-01-01 19:00:00,enabled
+4,Art,Art School, 2021-01-01 19:00:00, 2021-01-01 19:00:00,disabled

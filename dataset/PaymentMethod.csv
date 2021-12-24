@@ -1,0 +1,11 @@
+id,name,description,version,created_at,updated_at,status
+1,credit card - one payment, Mastercard one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+2,credit card - recurrent payment, Mastercard recurrent payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+3,credit card - one payment, Visa one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+4,credit card - recurrent payment, Visa one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+5,credit card - one payment, American one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+6,credit card - recurrent payment, American one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+7,mercado pago - recurrent payment, mercado pago recurrent payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+8,mercado pago - one payment, mercado pago one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+9,pago facil - recurrent payment, pago facil recurrent payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
+10,pago facil - one payment, pago facil one payment, 1.0, 2020-01-01 18:00:00,2020-01-01 18:00:00,enabled
