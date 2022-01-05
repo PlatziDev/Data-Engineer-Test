@@ -16,3 +16,13 @@ services:
     build: ./cli    
     volumes:
       - ./dataset:/dataset
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    container_name: pma
+    env_file: docker-compose.env
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql

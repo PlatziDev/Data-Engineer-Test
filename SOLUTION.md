@@ -47,13 +47,10 @@ docker exec -it cli bash actions run_etl
 docker exec -it cli bash actions clear_db
 ```
 
-Yo can connect to the database using a client like SQL Workbench with these credentials:
+Yo can connect to the database using PhpMyAdmin in localhost:
 ``` 
-	HOSTNAME: 127.0.0.1
-	PORT: 3306
-	USER:root
-	PASSWORD: my-secret-pw
-	DATABASE:challenge
+	http://localhost:8080/
+
 ```
 # Query
 ## Query 1)
