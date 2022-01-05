@@ -16,7 +16,11 @@
 ![DHW](model/DWH.png)
 ### Start
 
-Create and start the dockerized project in a terminal. These commands will start 2 docker containers: one for the MySQL DB and one for the CLI.
+Create and start the dockerized project in a terminal. These commands will start 3 docker containers:
+- MySQL DB
+- CLI ( Command line interface)
+- phpMyAdmin
+
 ``` bash
 cd Data-Engineer-Test
 docker-compose up --build
