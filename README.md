@@ -18,7 +18,7 @@ En platzi, ofrecemos educación online efectiva a estudiantes de todo el mundo, 
 - Además un estudiante puede ingresar a sesiones en vivo o blogs de la plataforma
 
 1. Crear un modelo relacional que pueda soportar la lógica de negocio anterior
-2. Crear un modelo BI en estrella o snowflafe para analitica de datos, para analizar los pagos en platzi y el dinero que se obtiene.
+2. Crear un modelo BI en estrella o snowflake para analitica de datos, para analizar los pagos en platzi y el dinero que se obtiene.
 3. Consultas sql:
 
 En tu modelo de datos:
@@ -27,7 +27,7 @@ En tu modelo de datos:
 - ¿Cuántos cursos ha tomado el estudiante con más del 80% de las clases vistas?
 - ¿El estudiante ha tenido pausas o cortesías en su suscripción?
 
-1. Crea un proceso de ETL en python/spark/sql o el lenguaje que creas conveniente con el objetivo de migrar los datos del modelo relacional que creaste anteriormente hasta el modelo estrella o snowflake que también creaste previamente.
+4. Crea un proceso de ETL en python/spark/sql o el lenguaje que creas conveniente con el objetivo de migrar los datos del modelo relacional que creaste anteriormente hasta el modelo estrella o snowflake que también creaste previamente.
 
 Nota: Puedes asumir que el datawarehouse donde esta alojado el modelo de BI, es redshift, snowflake, hbase o cualquier base de datos columnar que manejes.
 
