@@ -27,7 +27,7 @@ En tu modelo de datos:
 - ¿Cuántos cursos ha tomado el estudiante con más del 80% de las clases vistas?
 - ¿El estudiante ha tenido pausas o cortesías en su suscripción?
 
-4. Crea un proceso de ETL en python/spark/sql o el lenguaje que creas conveniente con el objetivo de migrar los datos del modelo relacional que creaste anteriormente hasta el modelo estrella o snowflake que también creaste previamente.
+4. Crea un proceso de ETL en python/spark/sql o el lenguaje que creas conveniente con el objetivo de migrar los datos del modelo relacional que creaste anteriormente hasta el modelo estrella o snowflake que también creaste previamente. Queremos que nos demuestres tus habilidades como data cleaning y uso de pandas. 
 
 Nota: Puedes asumir que el datawarehouse donde esta alojado el modelo de BI, es redshift, snowflake, hbase o cualquier base de datos columnar que manejes.
 
