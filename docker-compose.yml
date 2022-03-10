@@ -1,0 +1,9 @@
+version: '2'
+services:
+  postgres:
+    image: 'postgres:12'
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=dataplatzi
+    ports:
+      - '5432:5432'
