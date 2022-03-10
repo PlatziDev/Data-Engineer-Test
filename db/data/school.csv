@@ -1,0 +1,5 @@
+id,name,created_date,updated_date,status
+1,Data science,2020-12-26,2022-01-09,ACTIVE
+2,Backend,2020-12-28,2022-01-06,ACTIVE
+3,Frontend,2020-12-24,2022-01-02,ACTIVE
+4,Full stack,2020-12-25,2022-01-29,ACTIVE

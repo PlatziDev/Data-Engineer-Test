@@ -1,40 +1,126 @@
-# Descripcion de la prueba
+# Data Engineer Test Solution
 
-En el equipo de platzi queremos evaluar tus capacidades en modelamiento de datos y manejo de ingeniería de datos y ETL con algún lenguaje en específico.
+## Requirements
+- Python 3.9 or greater
+- Pip
+- Docker
+- docker-compose
 
-Para esto decidimos crear la siguiente prueba en la cual se evaluará tu lógica de abstracción del negocio a los datos y la creación de scripts para ETL.
+## Setup
+1. Create the Python venv with 
+```
+python -m venv env
+```
+2. Use the `requirements.txt` to install the required libraries
+```
+pip install -r requirements.txt
+```
+3. The project is using Docker to run a Database on PostgreSQL 12, so, build the docker project with compose
+```
+docker-compose up -d
+```
+4. Once all the steps are completed, just run `main.py` to start the ETL process
+```
+python main.py
+```
+5. You can connect to the Database using your preferred database management software with the following credentials:
+```
+host="localhost",
+database="postgres",
+user="postgres",
+password="dataplatzi"
+```
 
-## **Platzi**
+## Database
+ER Model
+![ER](img/ER_diagram.png)
 
-En platzi, ofrecemos educación online efectiva a estudiantes de todo el mundo, el modelo de negocio funciona de la siguiente manera
+Star Model
+![STAR](img/Star_model.png)
 
-- Un estudiante puede adquirir 3 tipos de suscripciones pagas
-- Existen distintos métodos de pago que se clasifican en recurrente y no recurrente
-- Un estudiante puede pagar su suscripción con mas de un método de pago, es importante saber cuánto se pago, en que currency y en que fecha
-- Es importante saber cuando un estudiante inicia y termina su suscripción
-- Un estudiante puede pausar su suscripción o se le pueden dar meses de cortesía, y es necesario saber cuándo ocurre cada evento de pausa o cortesía
-- Un estudiante puede tomar cursos, escuelas y clases
-- Una escuela está conformada por cursos, y un curso está conformado por clases
-- Además un estudiante puede ingresar a sesiones en vivo o blogs de la plataforma
+## Queries
+- **Cómo podemos saber cuántos estudiantes nuevos tenemos por suscripción semana a semana y mes por mes:**
 
-1. Crear un modelo relacional que pueda soportar la lógica de negocio anterior
-2. Crear un modelo BI en estrella o snowflake para analitica de datos, para analizar los pagos en platzi y el dinero que se obtiene.
-3. Consultas sql:
+Semana a semana:
+```
+SELECT count(s.student_id) AS subscriptions, date_part('week', s.start_date) AS week
+FROM "subscription" s 
+GROUP BY week 
+```
+![wtw](img/wtw.png)
 
-En tu modelo de datos:
+Mes por mes:
+```
+SELECT count(s.student_id) AS subscriptions, to_char(s.start_date, 'Month') AS month
+FROM "subscription" s 
+GROUP BY month 
+```
+![mtm](img/mtm.png)
 
-- cómo podemos saber cuántos estudiantes nuevos tenemos por suscripción semana a semana y mes por mes
-- ¿Cuántos cursos ha tomado el estudiante con más del 80% de las clases vistas?
-- ¿El estudiante ha tenido pausas o cortesías en su suscripción?
+- **Cuántos cursos ha tomado el estudiante con más del 80% de las clases vistas?**
+```
+WITH student_classes AS (
+	SELECT sp.student_id, cs.id AS course_id,  count(sp.class_id) count_classes
+	FROM student_progress sp
+	JOIN "class" cl ON sp.class_id = cl.id
+	JOIN course cs ON cl.course_id = cs.id
+	WHERE sp.status = 'completed'
+	GROUP BY sp.student_id, cs.id
+), count_classes AS ( 
+	SELECT cl.course_id ,count(cl.course_id) count_total_courses
+	FROM "class" cl 
+	GROUP BY cl.course_id 
+), total AS (
+	SELECT sc.student_id, cc.course_id, (count_classes::numeric(3,2) / count_total_courses::numeric(3,2))* 100 > 80 AS average_classes
+	FROM student_classes sc
+	JOIN count_classes cc ON sc.course_id = cc.course_id
+	GROUP BY sc.student_id, cc.course_id, count_classes, count_total_courses
+)
+SELECT s.first_name, s.last_name, s.user_name , count(t.course_id) AS courses_taken
+FROM student s
+LEFT JOIN total t ON t.student_id = s.id
+LEFT JOIN course cr ON t.course_id = cr.id
+WHERE average_classes = TRUE 
+GROUP BY s.first_name, s.last_name, s.user_name
+```
+![classes](img/classes_taken.png)
 
-4. Crea un proceso de ETL en python/spark/sql o el lenguaje que creas conveniente con el objetivo de migrar los datos del modelo relacional que creaste anteriormente hasta el modelo estrella o snowflake que también creaste previamente. Queremos que nos demuestres tus habilidades como data cleaning y uso de pandas. 
+- **El estudiante ha tenido pausas o cortesías en su suscripción?**
+```
+WITH courtesy AS (
+	SELECT s.student_id, sh."type" AS courtesy, sh.created_date
+	FROM subscription_history sh 
+	JOIN "subscription" s ON s.id = sh.subscription_id 
+	WHERE sh.TYPE = 'COURTESY'
+	GROUP BY s.student_id, sh."type",sh.created_date
+), pauses AS (
+	SELECT s.student_id, sh."type" AS pauses, sh.created_date 
+	FROM subscription_history sh 
+	JOIN "subscription" s ON s.id = sh.subscription_id 
+	WHERE sh.TYPE = 'PAUSED'
+	GROUP BY s.student_id, sh."type",sh.created_date
+)
+SELECT st.first_name, st.last_name, st.user_name,
+	CASE 
+		WHEN courtesy IS NOT NULL THEN 'YES'
+		ELSE 'NO'	
+	END AS courtesies, 
+	CASE 
+		WHEN pauses IS NOT NULL THEN 'YES'
+		ELSE 'NO'
+	END AS pauses,
+	cs.created_date AS courtesy_date,
+	ps.created_date AS pause_date
+FROM student st
+LEFT JOIN courtesy cs ON st.id = cs.student_id
+LEFT JOIN pauses ps ON st.id = ps.student_id
+ORDER BY first_name
+```
+![subs](img/cour_paus.png)
 
-Nota: Puedes asumir que el datawarehouse donde esta alojado el modelo de BI, es redshift, snowflake, hbase o cualquier base de datos columnar que manejes.
-
-Formato de entrega:
-
-Por favor hazle un fork al proyecto, cuando termines manda un PR con el siguiente formato interview/<your last name>, ejemplo: interview/vega y comunicate con el recluter o la persona que envió la prueba
-
-Tienes una semana a partir de recibido este correo, muchos exitos.
-
-Si tienes cualquier duda al respecto no dudes en escribirme.
+## Technology Stack
+This project was built using Python 3.9 and uses the following technologies:
+- Pandas 1.3.5
+- psycopg2 2.9.3
+- PostgreSQL 12
+- Docker
