@@ -43,13 +43,7 @@ Para el uso de la aplicación es necesario tener instalado docker, y de esta man
 ```
 3. En este punto deberíamos empezar a ver el log de ejecución.
 <h2 align="center">
-<<<<<<< HEAD
   <img src="img/Execution_process.png" width="450"></a>
-=======
-  <a href="https://developers.mercadolibre.com">
-    <img src="img/Execution_process.png" alt="Mercado Libre Developers" width="450"></a>
-  </a>
->>>>>>> 4f4fc3c489d2567744b18eab743162645c7c00a8
 </h2>
 
 4. Usando cualquier gestor de bases de datos, podemos conectarnos a la base de datos de Redshift y validar la informacion.
