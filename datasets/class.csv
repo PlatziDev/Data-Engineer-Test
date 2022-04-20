@@ -1,0 +1,82 @@
+﻿id;name_class;name_course;created_at
+dbc5645b-4cec-4d09-a7a8-ca597cb141c7;¿Qué aprenderás sobre algoritmos y pensamiento lógico?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+2c01d92b-1ef7-43ec-a7d0-11b181c496c0;La importancia de entrenar tu pensamiento lógico;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+62b46de8-6ec1-41cb-8645-230fd8fa7638;¿Qué entiende una computadora?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+6bd9cc88-a548-4e7c-918a-99adcd0c84b0;¿Qué es el sistema binario?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+60189fa7-3a5e-44c2-8b2f-ccf54bcdee26;Metodología para construir un algoritmo: requerimientos y proceso mental;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+f39c83d7-87f3-4507-a7cd-99817224e38e;¿Qué son Bits y Bytes?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+9261e0c5-3904-4b0d-b231-2e861d3fea56;¿Qué son variables, constantes y tipos de datos?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+1d375f96-7d5c-41b7-9a22-1d52d21b43d5;Identifica las variables según los requerimientos de negocio;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+268b433a-c855-474e-9cde-c5211fee3584;Strings (texto) y concatenación;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+0c50884a-2be6-47b5-908f-4e6f1129c88c;Números y operaciones matemáticas básicas;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+de68f7cb-e389-4762-87b6-7899b093a23b;Operaciones matemáticas compuestas: paréntesis y orden de evaluación;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+2bc98e32-9f21-43fe-8a75-ebec7a181801;True y false: booleanos y tablas de la verdad;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+6a37f6ca-089e-42d6-aaa4-91065fd73740;Arrays y funciones sobre arrays;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+48b0f7e3-30af-4919-9e77-45855cdeb68a;¿Cómo diseñar algoritmos con diagramas de flujo?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+4b557a56-97c2-447d-b8ef-652cd8095b01;Define el tipo de dato según los requerimientos de negocio;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+c2eeaf84-5861-4729-9eaa-e9305b2f9889;If y Else: condicionales y comparaciones para proteger tus algoritmos;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+f64411ad-60c8-4cf0-89e0-59b2831b0445;Switch y Case: condicionales en forma de casos;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+f966a9fd-4586-4d98-8cac-3437a6c24c9a;Excepciones y errores: Throw y Try Catch;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+0fa8eb02-b596-4102-8099-bcfe171d2d93;¿Qué es un ciclo? While, For y Do While;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+c7954ce1-c83d-4ff8-8b01-8bc2ed38940d;Diagrama de flujo con condicionales;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+b35e3905-bf40-40fb-ae82-73f1a62e859b;Diagrama de flujo con ciclos;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+88298848-cb09-44fa-8ebe-60f0644d7018;Tutorial de algoritmos de programación;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+77e03c28-522a-49b3-a39f-e42c013fc4b0;Diseña algoritmos para resolver problemas de tu vida diaria;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+8cd72428-ea50-497f-8a1c-a641ef9fb07a;¿Qué es una función?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+89bd3f70-67d1-457e-b1a1-cb5bcf1c0780;¿Cómo desarrollar tu lógica de programación?;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+e6b854fb-dc04-4dc0-a3ae-85adfac48462;Modularización de código;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+7415e955-7e30-4e07-b7ee-df6fd6279b12;Flujo de funciones para encapsular algoritmos;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+dc0ea99a-2177-4f32-b4b3-1d68b9fb0c21;Nomenclaturas de programación: camelCase, PascalCase, snake_case;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+ec8a1431-559c-43ae-a949-e24a6ccbe87e;¿Qué es recursividad? Funciones que se llaman a sí mismas;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+ee6c39dc-b77a-41fa-b808-df11351ec70b;Convierte algoritmos con ciclos a funciones recursivas;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+513649c7-d3a0-42d4-83a0-f8fd0243e615;Resolviendo acertijos;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+e30ed0fa-3a47-4c56-83b8-830d1a03102e;Diferencias entre lenguajes de programación;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+8e7acbfb-9f14-43fa-a602-c955cc17f77b;Cómo escribir código en cualquier lenguaje de programación;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+9d3a1c6c-1b10-45a3-b91f-165fb4d0ffbc;Cómo programar en JavaScript, Python y PHP;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+babd9e15-8261-4744-8793-fad427d28be5;Introducción al ejercicio en JavaScript;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+de412619-59e1-4007-8c1f-48a56ec227ef;Programando en JavaScript;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+5b6fcaa6-daf2-4fe0-bc1e-6b296ee2a134;Introducción al ejercicio en Python;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+d1b44ab2-863c-4722-b9cb-9ae76b197c0b;Programando en Python;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+7909b3b1-5002-4191-a23e-57085b14303d;Introducción al ejercicio en PHP;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+fe0fd478-d58f-492b-94e4-e12b9c62d440;Programando en PHP;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+deb30853-b3d1-494d-a5e8-a287011fd0fd;Cómo programar en Java y Lenguaje C;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+ba37c3b7-2f81-40ec-bde6-9c82a30b7356;Introducción al ejercicio en Java;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+d24aacea-2362-4c05-af45-b36545a5b044;Programando en Java;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+b5901937-6481-44e1-9126-6dfd0ffa62a1;Introducción al ejercicio en C;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+5180322f-8b6f-466a-a355-013e6e56abb2;Programando en Lenguaje C;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+5c06f423-4f8f-407a-935f-e28b040d8a66;Traduce diagramas de flujo a código en lenguajes de programación;Curso Básico de Algoritmos y Pensamiento Lógico;10/10/17
+98ab9811-a89f-4ea8-bdb1-f228698e7e5f;¿Qué es HTML/CSS/JS?;Curso Gratis de Programación Básica;10/10/17
+9869186a-1597-455d-8fc5-8efd8136691e;JavaScript no es Java;Curso Gratis de Programación Básica;10/10/17
+68f2eeb7-5ee0-4029-b15a-04ca1f532fed;Primeros pasos en el navegador con alert;Curso Gratis de Programación Básica;10/10/17
+6a80b27c-6e85-4930-9be5-c238ae448c4a;HTML, CSS, JavaScript de verdad;Curso Gratis de Programación Básica;10/10/17
+9a2bd0c9-b955-4dfa-a6fb-ffe06bffddff;Los apuntes de Freddy en PDF;Curso Gratis de Programación Básica;10/10/17
+3b3105e3-0d14-423a-8f7b-7c0d7e4d0cdc;Peso en otro planeta;Curso Gratis de Programación Básica;10/10/17
+c8e83390-25f8-4324-a5a9-22deb52732ee;Obteniendo datos del usuario;Curso Gratis de Programación Básica;10/10/17
+7796c1b3-13c0-4b35-8889-4b38315bb1bc;Flujo y condicionales;Curso Gratis de Programación Básica;10/10/17
+e7d2726c-16ce-4767-97e4-569c19fbf1df;Cómo funcionan Window y Document;Curso Gratis de Programación Básica;10/10/17
+6a89178c-e45b-4675-a549-a4b00fa02d09;El DOM: nuestro lugar de trabajo en la web;Curso Gratis de Programación Básica;10/10/17
+93447adb-34f2-49e7-930a-d82a78dfc431;Dibujando en el DOM;Curso Gratis de Programación Básica;10/10/17
+05a6dc2c-a9e0-492e-8dc2-38064df7b99f;Qué son las Funciones en JavaScript;Curso Gratis de Programación Básica;10/10/17
+e3b53fb1-846e-40b3-a04a-ce5f3982f545;Ciclos while y for en JavaScript;Curso Gratis de Programación Básica;10/10/17
+f624afb9-cb95-48e4-8c8e-0a6ea9a3fa21;Eventos y Formularios en HTML y JavaScript;Curso Gratis de Programación Básica;10/10/17
+47136629-f1aa-4872-84e0-6249796b280d;Detectar eventos del teclado con JavaScript;Curso Gratis de Programación Básica;10/10/17
+1331fb5d-9f28-444c-863f-f0c462b6aed3;Dibujar en canvas con las flechas del teclado;Curso Gratis de Programación Básica;10/10/17
+205fdabb-a47b-4acd-bec9-c8d4b8bb5fa7;Funciones matemáticas y números aleatorios en JavaScript;Curso Gratis de Programación Básica;10/10/17
+e55004e0-f166-42a3-a813-170a0ce881a0;Uso y carga de imágenes en Canvas;Curso Gratis de Programación Básica;10/10/17
+744e6f72-89ac-410e-86f1-0c85015ea36c;División, módulo y residuo en JavaScript;Curso Gratis de Programación Básica;10/10/17
+f4a59227-e4fe-423f-9714-1461c627687b;Clases y Arrays en JavaScript;Curso Gratis de Programación Básica;10/10/17
+0d832a87-2b59-4949-897d-aa0cace6e27e;Diagrama de Flujo del Cajero Automático;Curso Gratis de Programación Básica;10/10/17
+ea2ca16e-b4ca-40fe-9be1-64767f285418;Implementación del Cajero Automático;Curso Gratis de Programación Básica;10/10/17
+614bcf3c-0819-4bf4-a34a-5e3bf2a18b76;Primer servidor web con express;Curso Gratis de Programación Básica;10/10/17
+77fa65f3-bba3-48c3-abbf-d6ccc69116bd;Modelo Cliente/Servidor;Curso Gratis de Programación Básica;10/10/17
+d07b036a-079d-4aba-8103-a04aed01b155;¿Cómo funciona un circuito electrónico?;Curso Gratis de Programación Básica;10/10/17
+daa6941e-470b-4df8-935f-1bc3df7e1578;¿Cómo programar un Arduino?;Curso Gratis de Programación Básica;10/10/17
+6b7a1e79-82c9-4f26-95bc-db919fd326a0;Programación de circuitos con C, Arduino y Sketch;Curso Gratis de Programación Básica;10/10/17
+6886fdc8-c907-41a2-9d7d-87870ca5f1b6;Cómo programar un Arduino con Javascript y Node;Curso Gratis de Programación Básica;10/10/17
+b3bdd600-e62a-4458-89ca-9ebdb65b67fd;Construye un Robot con JavaScript;Curso Gratis de Programación Básica;10/10/17
+cbf1ae6c-13ba-482a-bd9e-9ef2c90d54ca;Robot para riego de plantas en Arduino, Javascript y Node;Curso Gratis de Programación Básica;10/10/17
+599148bf-1cac-4525-97d2-ac2f23717e99;Las mejores notas de los estudiantes;Curso Gratis de Programación Básica;10/10/17
+4c5cc4e3-bd76-4b9e-8126-902d77bef1d8;¿Cuál lenguaje de programación aprender primero?;Curso Gratis de Programación Básica;10/10/17
+bd4a6081-e852-428f-87e2-23248831b68c;La Web con Visión Profesional;Curso Gratis de Programación Básica;10/10/17
+dd9aa7e6-767b-4b8c-af08-a0f5cf4cf782;Qué son tablas de verdad y compuertas lógicas;Curso Gratis de Programación Básica;10/10/17
+d4e5c967-aee7-490d-b682-0667988de8a5;Recap Programación básica;Curso Gratis de Programación Básica;10/10/17

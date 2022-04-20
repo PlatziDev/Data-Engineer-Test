@@ -136,6 +136,8 @@ pip-selfcheck.json
 
 ### VisualStudioCode ###
 .vscode/
+docs/
+test/
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
@@ -143,4 +145,3 @@ pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/python,virtualenv
 
-*.csv*
