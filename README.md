@@ -35,27 +35,30 @@ En tu modelo de datos:
 Para el uso de la aplicación es necesario tener instalado docker, y de esta manera poder ejecutar el proyecto dentro de un contenedor. [Instalacion de docker](https://docs.docker.com/engine/install/) 
 1. Creamos la imagen configurada previamente
 ```bash
-    docker build --tag platzi-etl-python .
+  docker build --tag platzi-etl-python .
 ```
 2. Ejecutamos el docker, que internamente ejecuta el programa en Python
 ```bash
-    docker run platzi-etl-python
+docker run platzi-etl-python
 ```
 3. En este punto deberíamos empezar a ver el log de ejecución.
 <h2 align="center">
-  <img src="img/Execution_process.png" width="450"></a>
+  <a href="https://developers.mercadolibre.com">
+    <img src="img/Execution_process.png" alt="Mercado Libre Developers" width="450"></a>
+  </a>
 </h2>
 
 4. Usando cualquier gestor de bases de datos, podemos conectarnos a la base de datos de Redshift y validar la informacion.
-<h2 align="center">
-  <img src="img/Platzi_Schemas_Database.png" width="400"></a>
-</h2>
+<figure align="center">
+  <img src="img/Platzi_Schemas_Database.png" width="430"></>
+</figure>
 
 ## **DESARROLLO**
 ### **Modelo Relacional**
-<h2 align="center">
-  <img src="img/Platzi_Relational_Model.png" width="650"></a>
-</h2>
+<figure align="center">
+  <img src="img/Platzi_Relational_Model.png"></>
+  <figcaption>Platzi Relational Model</figcaption>
+</figure>
 
 ### **Modelo Dimensional**
 Para el modelo dimensional se crearon dos tablas de hechos y 6 dimensiones:
@@ -65,27 +68,31 @@ Para el modelo dimensional se crearon dos tablas de hechos y 6 dimensiones:
 - **df_dimEvent:** Esta dimensión contiene los eventos que pueden afectar el estado de subscripción de un estudiante, como las pausas, cortesias, pagos, etc.
 - **df_dimFrequency:** Contiene las posibles frecuencias de los pagos. Se obtiene de la tabla transaccional de subscripciones y basicamente tiene las posibles formas de pago de los usuarios.
 - **df_dimTime:** Es la dimensión tiempo, cargada con codigo de Python.
-<h2 align="center">
-  <img src="img/Platzi_Dimentional_Model_Subscription.png" width="400"></a>
-</h2>
+<figure align="center">
+  <img src="img/Platzi_Dimentional_Model_Subscription.png" width="430"></>
+  <figcaption>Platzi Dimentional Model Subscription</figcaption>
+</figure>
     
 - **df_factSubscription:** Tabla de hechos que contiene la información de las subscripciones, sus principales medidas son la cantidad y el valor
 - **df_factUsability:** Tabla de hechos que contiene la información del uso de la plataforma, y su principal medida es la duración y la completitud de las clases
-<h2 align="center">
-  <img src="img/Platzi_Dimentional_Model_Usability.png" width="400"></a>
-</h2>
+<figure align="center">
+  <img src="img/Platzi_Dimentional_Model_Usability.png" width="430"></>
+  <figcaption>Platzi Dimentional Model Usability</figcaption>
+</figure>
 
 
 ### **Aprovisionamiento en AWS**
 **Creación del storage S3**
-<h2 align="center">
-  <img src="img/Platzi_Bucket_S3.png" width="400"></a>
-</h2>
+<figure align="center">
+  <img src="img/Platzi_Bucket_S3.png" width="430"></>
+  <figcaption>Platzi Bucket S3</figcaption>
+</figure>
 
 **Creación de la base de datos en Redshift**
-<h2 align="center">
-  <img src="img/Platzi_Cluster_Redshift.png" width="400"></a>
-</h2>
+<figure align="center">
+  <img src="img/Platzi_Cluster_Redshift.png" width="430"></>
+  <figcaption>Platzi Cluster Redshift</figcaption>
+</figure>
 
 ### **Desarrollo del código en Python**
 El codigo en Python se trató de hacer de la forma más sencilla en un unico archivo main, el cual contiene tres funciones, una para cada proceso de ETL
@@ -94,9 +101,11 @@ El codigo en Python se trató de hacer de la forma más sencilla en un unico arc
 - `load(df_dim,df_fact)` Carga las tablas de hechos y dimensiones en la base de datos de Redshift.
 
 ### **Arquitectura**
-<h2 align="center">
-  <img src="img/Architecture.png" width="550"></a>
-</h2>
+<figure align="center">
+  <img src="img/Architecture.png" width="430"></>
+  <figcaption>Architecture</figcaption>
+</figure>
+
 
 ### **Preguntas de negocio**
 ¿Cómo podemos saber cuántos estudiantes nuevos tenemos por suscripción semana a semana y mes por mes?
@@ -163,7 +172,4 @@ WHERE 1=1
     AND T3.TYPE_EVENT IN ('Pausa','Cortesia')
 GROUP BY 1,2,3;
 ```
-
-
-
 
