@@ -7,6 +7,7 @@ Se parte de los datos creados por una base de datos transaccional ya depositados
 
 
 ## **REQUERIMIENTOS**
+
 En platzi, ofrecemos educación online efectiva a estudiantes de todo el mundo, el modelo de negocio funciona de la siguiente manera
 
 - Un estudiante puede adquirir 3 tipos de suscripciones pagas
@@ -41,9 +42,12 @@ Para el uso de la aplicación es necesario tener instalado docker, y de esta man
 docker run platzi-etl-python
 ```
 3. En este punto deberíamos empezar a ver el log de ejecución.
-<figure align="center">
-  <img src="img/Execution_process.png" width="430"></>
-</figure>
+<h2 align="center">
+  <a href="https://developers.mercadolibre.com">
+    <img src="img/Execution_process.png" alt="Mercado Libre Developers" width="450"></a>
+  </a>
+</h2>
+
 4. Usando cualquier gestor de bases de datos, podemos conectarnos a la base de datos de Redshift y validar la informacion.
 <figure align="center">
   <img src="img/Platzi_Schemas_Database.png" width="430"></>
@@ -92,9 +96,9 @@ Para el modelo dimensional se crearon dos tablas de hechos y 6 dimensiones:
 
 ### **Desarrollo del código en Python**
 El codigo en Python se trató de hacer de la forma más sencilla en un unico archivo main, el cual contiene tres funciones, una para cada proceso de ETL
-- **extract():** Extrae los archivos del Storage de S3 y los convierte en varios dataframes.
-- **transform(df):** Transforma los dataframes en las dimensiones y tablas de hechos. Esta función podría complementarse con otra función que realice una limpieza más profunda de los datos, como caracteres especiales, duplicados, etc.
-- **load(df_dim,df_fact):** Carga las tablas de hechos y dimensiones en la base de datos de Redshift.
+- `extract()` Extrae los archivos del Storage de S3 y los convierte en varios dataframes.
+- `transform(df)` Transforma los dataframes en las dimensiones y tablas de hechos. Esta función podría complementarse con otra función que realice una limpieza más profunda de los datos, como caracteres especiales, duplicados, etc.
+- `load(df_dim,df_fact)` Carga las tablas de hechos y dimensiones en la base de datos de Redshift.
 
 ### **Arquitectura**
 <figure align="center">
@@ -168,7 +172,4 @@ WHERE 1=1
     AND T3.TYPE_EVENT IN ('Pausa','Cortesia')
 GROUP BY 1,2,3;
 ```
-
-
-
 
