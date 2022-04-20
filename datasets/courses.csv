@@ -1,0 +1,81 @@
+﻿id;name_course;name_school;cant_class;created_at
+a286df81-0592-4929-9e21-35e9db9b06bd;Curso Básico de Algoritmos y Pensamiento Lógico;Fundamentos de programación;23;20/05/18
+ea47633b-a3fb-4c6f-a424-cdfb7c155828;Curso Gratis de Programación Básica;Fundamentos de programación;19;20/05/18
+1d8215d8-bad1-4feb-b76d-85cf761d606a;Curso de Introducción a la Terminal y Línea de Comandos;Fundamentos de programación;21;20/05/18
+ebbb26e2-7265-456b-88f0-8a4c1fd32ad9;Curso Profesional de Git y GitHub;Fundamentos de programación;19;20/05/18
+eee362a0-9013-47bf-a70d-b3f2fb033886;Curso de Flujo de Desarrollo Moderno CodeStream;Fundamentos de programación;11;20/05/18
+85b17c54-bb67-4104-ad5a-b9542b7a1ef9;Fundamentos de Ingeniería de Software;Fundamentos de programación;15;20/05/18
+47ca00da-a55c-4df6-9d1a-9844783fbafe;Curso de Redes Informáticas de Internet;Fundamentos de programación;28;20/05/18
+3c576c06-a3d2-41a3-b2d8-56e3d38ebb68;Curso de Introducción a C;Fundamentos de programación;15;20/05/18
+8b79bdad-cb23-4953-ab47-c1c5ca12447e;Curso de Control de Flujo en C;Fundamentos de programación;12;20/05/18
+7990808a-f226-4ab1-8ba6-12f93c5326a5;Curso de Funciones en C;Fundamentos de programación;16;20/05/18
+2ed13197-79df-4602-a1ed-435639cb6116;Curso de C++ Básico;Fundamentos de programación;22;20/05/18
+3a00fad9-7ae9-4dcb-a865-8f14f19b0822;Curso de Introducción a la Web: Historia y Funcionamiento de Internet;Fundamentos de programación;29;20/05/18
+7810f0c5-3cbb-447b-8a64-5903be642cce;Curso de Historia de la Programación: Lenguajes y Paradigmas;Fundamentos de programación;25;20/05/18
+459c0960-2e5f-4181-a93d-9630e4ebb104;Curso de Programación Estructurada;Fundamentos de programación;15;20/05/18
+7c615f82-c320-44f9-b4a0-9bcae0abfada;Curso de Programación Orientada a Objetos: POO;Fundamentos de programación;27;20/05/18
+aba70529-4a85-4370-b4ca-03fbf5e7830c;Curso de Fundamentos de Bases de Datos;Fundamentos de programación;13;20/05/18
+e14b140e-3864-4d1d-bf4f-8dcc10366c1e;Curso de Expresiones Regulares;Fundamentos de programación;16;20/05/18
+cfa6961a-e35f-4e90-8ede-acc49b42424d;Fundamentos de Arquitectura de Software;Fundamentos de programación;11;20/05/18
+68128a3c-0602-49c0-a0bb-b8554cd95677;Curso Profesional de Arquitectura de Software;Fundamentos de programación;16;20/05/18
+867f63ff-4af7-4461-aafe-8619f98bd41b;Curso de Automatización de Procesos RPA con UiPath;Fundamentos de programación;29;20/05/18
+422f7e9c-fae8-4dbc-b870-02b2aaff08ed;Curso de Analista de Negocios en RPA;Fundamentos de programación;12;20/05/18
+b29ce9d1-478b-493b-bf7c-70e337b9252a;Curso de Programación en Bash Shell;Fundamentos de programación;15;20/05/18
+a2dbdd8a-aa3e-4185-81fb-dc1ce8c90526;Curso de Introducción al Technical Writing y Documentación de Código;Fundamentos de programación;10;20/05/18
+b8c63c31-be75-46ca-8fc3-67b2ff0bdda3;Curso de Buenas Prácticas en PHP;Fundamentos de programación;28;20/05/18
+21730ca2-ea4e-47f5-af5e-10204053759a;Curso de Fundamentos de Pruebas de Software;Fundamentos de programación;12;20/05/18
+b65ad590-d05d-43e4-be42-98f7bcefbaa0;Curso de Diseño para Developers;Fundamentos de programación;10;20/05/18
+4fc893a2-1c04-4a29-854a-21357e44f7b9;Curso de COBOL desde Cero;Fundamentos de programación;30;20/05/18
+d8781dbb-e8d9-4dfd-aab6-d97ce30335c3;Curso Práctico de COBOL;Fundamentos de programación;17;20/05/18
+4681367b-80d4-4bbe-a5e4-ccac9ceee54a;Curso Básico de Python;Fundamentos de programación;25;20/05/18
+290e81f0-ae6e-47af-8438-3614678d4f94;Curso de Python Intermedio: Comprehensions, Lambdas y Manejo de Errores;Fundamentos de programación;18;20/05/18
+fe45eead-9efd-4fad-9613-cc8f4662ea0d;Curso de Introducción al Desarrollo de Lenguajes de Programación;Fundamentos de programación;15;20/05/18
+162eeee7-394f-42ae-80e1-2654df63c927;Curso de Creación de Lenguajes de Programación: Intérpretes;Fundamentos de programación;11;20/05/18
+33e517e1-968b-40fb-b91f-48fb59f0d31a;Cómo y Por Qué Aprender Data Science e Inteligencia Artificial;Data Engineer;27;20/05/18
+6bef1dfd-1fdb-4dea-be2e-cd716bd8e2eb;Curso de Análisis de Negocios para Ciencia de Datos;Data Engineer;29;20/05/18
+9103711a-8280-46b7-9fee-340a13fbf8ad;Curso de Fundamentos de Matemáticas;Data Engineer;25;20/05/18
+4a0d4c33-fa42-4258-8e39-2cf7aaa72b4d;Fundamentos de Ingeniería de Software;Data Engineer;14;20/05/18
+a11d6b3d-7323-440e-a19d-fa6c32aa7c2d;Curso Básico de Python;Data Engineer;17;20/05/18
+353f826c-41cf-4bd1-8f42-526c2583e773;Curso de Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda;Data Engineer;23;20/05/18
+d5895b8d-af44-4c11-a163-e76b9ca4ae98;Curso de Introducción a la Terminal y Línea de Comandos;Data Engineer;11;20/05/18
+60b3807f-a62d-44a4-9c25-5acae7e153f2;Curso de Programación Orientada a Objetos: POO;Data Engineer;18;20/05/18
+053507d7-7a1c-4e67-bb21-d21e9fa00947;Curso Profesional de Git y GitHub;Data Engineer;23;20/05/18
+bb43cdd0-ef4e-49ec-9eaf-ec4c9f1989e8;Curso de Python Intermedio: Comprehensions, Lambdas y Manejo de Errores;Data Engineer;10;20/05/18
+16674350-e18b-4d48-885c-8995d11ba691;Curso Profesional de Python;Data Engineer;14;20/05/18
+0ec5aa3d-f5fb-4e04-ae5b-e53c5ebdfa7e;Curso Básico de Manipulación y Transformación de Datos con Pandas y NumPy;Data Engineer;19;20/05/18
+fe992178-9532-4e40-801a-11a577dc546f;Curso Básico de Visualización de Datos con Matplotlib y Seaborn;Data Engineer;13;20/05/18
+bb276093-bf9d-400f-b4c4-493b6c31da84;Curso de Matemáticas para Data Science: Estadística Descriptiva;Data Engineer;28;20/05/18
+467685b9-b555-4d8e-87d6-2f38a05386d3;Curso de Expresiones Regulares;Data Engineer;14;20/05/18
+78ce5bdf-708a-4d6b-bf02-62a4527285dc;Curso de Estructuras de Datos Lineales con Python;Data Engineer;27;20/05/18
+a7286460-b9e4-4cce-ac25-f45f516d8cc6;Curso de Fundamentos de Web Scraping con Python y Xpath;Data Engineer;11;20/05/18
+ab93c9f8-ac07-4850-abce-53e1b57ba29a;Curso de Ingeniería de Datos con Python;Data Engineer;10;20/05/18
+eeb8f701-625a-4a74-8751-251ded487068;Curso de Web Scraping: Extracción de Datos en la Web;Data Engineer;25;20/05/18
+7629ef17-e136-43ed-89f0-49af259d444a;Curso de Scrapy;Data Engineer;28;20/05/18
+b20be191-700a-4f97-b57d-3d89da50fad9;Curso de Programación en Bash Shell;Data Engineer;27;20/05/18
+71c24a89-b80e-492e-9b22-59fce6b81336;Curso de Fundamentos de Bases de Datos;Data Engineer;27;20/05/18
+0ae9c185-8297-4199-9a89-c1a355d975ec;Curso de PostgreSQL;Data Engineer;19;20/05/18
+5d7bbb01-cb2b-4b66-a33d-47663eceb8cf;Curso Práctico de SQL;Data Engineer;29;20/05/18
+a38d408e-fc5a-4bc0-a6aa-cfcd8b219d51;Curso de PostgreSQL Aplicado a Ciencia de Datos;Data Engineer;19;20/05/18
+721ffa00-5d6f-43ab-8a6b-bcfa41c31ed0;Curso de Optimización de Bases de Datos en SQL Server;Data Engineer;24;20/05/18
+ce41e656-19da-40ca-9c3f-6b99cdf3ce26;Curso Básico de MongoDB;Data Engineer;27;20/05/18
+854c5892-20f3-4a7e-a951-cbf349c78329;Curso de Fundamentos de Spark para Big Data;Data Engineer;27;20/05/18
+c33e451d-e76e-47b4-b5a4-47594a93ab14;Curso de Hadoop;Data Engineer;21;20/05/18
+db66838d-8a59-4de9-b091-9927ce017173;Curso de Administración de Servidores Linux;Data Engineer;17;20/05/18
+d7676de6-6588-4183-9f05-168de49ddb2b;Curso de Introducción a AWS: Fundamentos de Cloud Computing;Data Engineer;10;20/05/18
+e2ded530-8575-4c3a-ab4c-ee62e07c45a3;Curso de Introducción a AWS: Cómputo, Almacenamiento y Bases de Datos;Data Engineer;17;20/05/18
+9abf7130-4b60-4e71-9794-d9a506e032bb;Curso Práctico de Storage en AWS;Data Engineer;25;20/05/18
+5a7993d6-e860-41a3-bd3d-5ddf5d6e8527;Curso Práctico de Cloud Computing con AWS;Data Engineer;10;20/05/18
+ff17400d-12df-4926-8c33-757fdd24c536;Curso Práctico de Bases de Datos en AWS;Data Engineer;18;20/05/18
+fc704d04-96ca-46cc-9573-46f528ba8055;Curso de AWS Redshift para Manejo de Big Data;Data Engineer;11;20/05/18
+5b9e7e58-b30c-41d0-95a2-c7112b2ba87c;Curso de Introducción a la Nube con Azure;Data Engineer;11;20/05/18
+ee14f9c1-e8a3-4aad-9163-d69459fa67bf;Curso de Azure IaaS;Data Engineer;17;20/05/18
+28854271-c204-4904-90d1-a0f335702bb7;Curso de Almacenamiento en Azure;Data Engineer;27;20/05/18
+f24905db-166a-4151-a3c9-f9978e8334b0;Curso de Bases de Datos en Azure;Data Engineer;16;20/05/18
+9dfd1e4e-fea1-4757-81ba-b92b3f00a224;Curso de SQL en Azure;Data Engineer;26;20/05/18
+1d368d3f-4bd8-436d-96e8-65e44d857176;Curso de Introducción a Google Cloud Platform;Data Engineer;16;20/05/18
+ca6d6960-8c86-46ad-8df3-19cf57d0e761;Curso de Almacenamiento en la Nube con Google Cloud Platform;Data Engineer;15;20/05/18
+cb9cec0a-b0e9-4487-83d4-dc1dbcde2801;Curso de Máquinas Virtuales con Google Cloud Platform;Data Engineer;13;20/05/18
+46678961-1cd6-4b71-8d2e-e19e036a7808;Curso de Big Data y Machine Learning con Google Cloud Platform;Data Engineer;24;20/05/18
+7690f7a0-ca96-490a-bd64-80412d637b69;Curso de Docker;Data Engineer;10;20/05/18
+1905202c-c054-4b21-9f77-033014c92c1a;Curso de Kubernetes;Data Engineer;26;20/05/18
+e1fc2cbe-a59b-45da-adcc-55f3f7232e95;Curso de Programación Funcional con Scala;Data Engineer;19;20/05/18
